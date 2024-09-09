@@ -5,6 +5,16 @@ EduManage Dashboard
 ## 项目概述
 EduManage Dashboard 是一个基于 Next.js 构建的现代化仪表盘应用。该项目旨在提供一个高效、直观的用户界面，用于管理和展示各种数据。项目采用了最新的前端技术栈，确保了高性能和良好的用户体验。
 
+## 项目预览
+**管理员视图**
+![管理员视图](./assets/admin-index.png)
+
+**教师视图**
+![教师视图](./assets/teacher-view.png) 
+
+**学生视图**
+![学生视图](./assets/student-view.png)
+
 ## 主要功能
 ### 用户管理
 - 创建、更新和删除教师、学生、家长等用户信息。
