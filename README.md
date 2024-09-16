@@ -1,7 +1,7 @@
-项目介绍
 # 项目名称
 
 EduManage Dashboard
+
 ## 项目概述
 EduManage Dashboard 是一个基于 Next.js 构建的现代化仪表盘应用。该项目旨在提供一个高效、直观的用户界面，用于管理和展示各种数据。项目采用了最新的前端技术栈，确保了高性能和良好的用户体验。
 
@@ -56,12 +56,46 @@ EduManage Dashboard 是一个基于 Next.js 构建的现代化仪表盘应用。
 - 高性能表单处理: 采用 react-hook-form 进行表单处理，结合 zod 进行表单验证，确保了表单的高性能和类型安全。
 - 响应式设计: 使用 Tailwind CSS 进行响应式设计，确保了在不同设备上的良好用户体验。
 - 数据可视化: 通过 recharts 提供丰富的数据可视化功能，帮助用户更直观地理解数据。
+- 自定义样式: 整个项目的样式均为手写，未使用任何主题或组件库，确保了样式的独特性和灵活性。
 
-## 运行项目
-- 开发环境
-- 生产环境
 
 ## 目录结构
+
+├── README.md
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── pnpm-lock.yaml
+├── postcss.config.mjs
+├── src
+│   ├── app
+│   │   ├── (dashboard)
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   └── sign-in
+│   ├── components
+│   │   ├── Announcements.tsx
+│   │   ├── AttendanceChart.tsx
+│   │   ├── BigCalender.tsx
+│   │   ├── CountChart.tsx
+│   │   ├── EventCalendar.tsx
+│   │   ├── FinanceChart.tsx
+│   │   ├── FormModal.tsx
+│   │   ├── InputField.tsx
+│   │   ├── Menu.tsx
+│   │   ├── Navbar.tsx
+│   │   ├── Pagination.tsx
+│   │   ├── Performance.tsx
+│   │   ├── Table.tsx
+│   │   ├── TableSearch.tsx
+│   │   ├── UserCard.tsx
+│   │   └── forms
+│   └── lib
+│       └── data.ts
+├── tailwind.config.ts
+└── tsconfig.json
 
 ## 结语
 EduManage Dashboard 是一个功能丰富、技术先进的仪表盘应用，适用于各种数据管理和展示需求。通过采用现代化的前端技术栈，项目不仅具备高性能和良好的用户体验，还具备良好的可扩展性和维护性。
